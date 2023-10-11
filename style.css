@@ -1,27 +1,55 @@
-body {
-    background-color: rgb(129, 73, 73);
-}
-
-p{
-    font-size: 35px;
-    color: yellow;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800   ;
-    text-decoration: underline  ;
-    margin: 25px 25px 25px;
-    border: 2px solid rgb(157, 172, 137);
-    padding: 25px ;
-    text-shadow: 3px 3px 1px black;
-    border-radius: 25px;
-    background-color: rgb(64, 64, 44) ;
-    opacity: 0.7;
+*{
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  ul{
+    list-style: none;
+  }
+  
+  body{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #070707;
+    font-family: 'Roboto';
+  }
+  .container{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+  h2{
     text-align: center;
-    padding: 18px 18px;
-    line-height: 75px;
- 
-
-    
-}
-
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 42px;
+  }
+  .menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding: 32px 0;
+  }
+  .menu a{
+    color: #828282;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .menu a:hover{
+    color: #070707;
+  }
+  .main_logo{
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 59px;
+  }
 
 
